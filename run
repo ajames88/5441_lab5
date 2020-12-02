@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#module load mpicc
+make
+mpirun -np 2 ./a.out
